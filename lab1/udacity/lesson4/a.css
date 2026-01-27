@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightgray;
+  padding: 20px;
+ 
+}
+
+.portfolio  {
+  color: black;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.itemimg {
+  width: 300px;
+  display: block;
+  text-align: left;
+}
+
+.itemspan {
+  color: darkslategray;
+  font-size: 1em;
+}

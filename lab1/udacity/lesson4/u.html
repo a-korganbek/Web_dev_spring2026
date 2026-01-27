@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Udacity Header</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .avatar {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+    }
+
+    .logo {
+      color: gray;
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      color: gray;
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img class="avatar" src="https://avatars.mds.yandex.net/i?id=c8ed2504275d5200ab20e543693162f528054bf7-4576013-images-thumbs&n=13" alt="avatar">
+      <a href="#" class="logo">Udacity</a>
+    </div>
+    <nav>
+      <a href="#">Nanodegree</a>
+      <a href="#">Catalog</a>
+      <a href="#">My Classroom</a>
+    </nav>
+  </header>
+
+</body>
+</html>
