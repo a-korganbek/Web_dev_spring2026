@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Facebook Login</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f0f2f5;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+  
+    .container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+    }
+
+    .left {
+      max-width: 400px;
+    }
+
+    .left h1 {
+      font-size: 48px;
+      color: #1877f2;
+      margin-bottom: 20px;
+    }
+
+    .left p {
+      font-size: 20px;
+      color: #1c1e21;
+    }
+
+    .right {
+      background-color: white;
+      padding: 25px;
+      width: 320px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+
+    .right input {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 12px;
+      border: 1px solid #dddfe2;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    .right button {
+      width: 100%;
+      padding: 12px;
+      border-radius: 6px;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+
+    .login-btn {
+      background-color: blue;
+      color: white;
+      font-weight: bold;
+    }
+
+    .login-btn:hover {
+      background-color: navy;
+    }
+
+    .right a {
+      display: block;
+      margin-bottom: 15px;
+      font-size: 14px;
+      color: blue;
+      text-decoration: none;
+    }
+
+    .right a:hover {
+      text-decoration: underline;
+    }
+
+    .create-btn {
+      background-color:green;
+      color: white;
+      font-weight: bold;
+      width: auto;
+      padding: 12px 20px;
+      margin: 10px auto;
+      display: inline-block;
+    }
+
+    .create-btn:hover{
+        background-color: darkgreen;
+    }
+
+    .small-text {
+      font-size: 12px;
+      color: gray;
+      margin-top: 15px;
+    }
+
+    .r1 {
+      text-align: center;
+      font-size: 12px;
+      margin-bottom: 30px;
+    }
+
+    .r1 span {
+      font-weight: bold;
+    }
+
+    
+    .footer {
+      background-color: white;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 12px;
+      color: gray;
+    }
+
+    .footer a {
+      color: gray;
+      text-decoration: none;
+      margin: 0 6px;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    
+
+    .footer p {
+      margin-top: 10px;
+    }
+    .small-text:hover{
+        text-decoration: underline;
+    }
+  </style>
+
+  <link rel="icon" type="image/x-icon" href="f.webp">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="left">
+      <h1>facebook</h1>
+      <p>Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.</p>
+    </div>
+
+    <div class="right">
+      <input type="text" placeholder="Электронный адрес или номер телефона">
+      <input type="password" placeholder="Пароль">
+      <button class="login-btn">Вход</button>
+      <a href="#">Забыли пароль?</a>
+      <button class="create-btn">Создать новый аккаунт</button>
+      <p class="small-text">
+        Создать Страницу знаменитости, музыкальной группы или компании.
+      </p>
+    </div>
+  </div>
+
+  
+
+  <div class="footer">
+    <a href="#">Русский</a>
+    <a href="#">English (US)</a>
+    <a href="#">Қазақша</a>
+    <a href="#">Español</a>
+    <a href="#">Français (France)</a>
+    <p>Facebook © 2026</p>
+  </div>
+
+</body>
+</html>

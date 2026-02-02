@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GitHub Pricing</title>
+
+<style>
+body, html {
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f6f8fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.container1 h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.container1 p {
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.container1 button {
+    background-color: #24292f;
+    width: 20%;
+    border-radius: 12px;
+    height: 40px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+}
+
+.container1 button:hover {
+    box-shadow: 5px 5px lightgray;
+}
+
+
+.container2 {
+    display: flex;
+    width: 60%;
+    gap: 30px;
+    flex-wrap: wrap; 
+    margin-bottom: 50px;
+}
+
+
+.card {
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 5px 5px lightgray;
+   
+}
+
+
+.card-top {
+    min-height: 170px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+}
+.p1{
+    color: gray;
+    font-size: 12px;
+}
+.card-top button{
+    height:25px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+}
+.card-top button:hover{
+    background-color: gray;
+}
+.card-top h2{
+    margin: 0;
+}
+
+.card-bottom {
+    flex: 1;
+    background-color: #f0f0f0;
+    display: flex;
+    border-radius: 12px;
+    padding: 10px;
+    flex-direction: column;
+    gap:10px;
+}
+.card-bottom summary{
+    font-size: 12px;
+    color: #57606a;
+}
+
+.card-recommended {
+    border: 10px solid #4DA6FF;
+}
+.buttons{
+    height: 30px;
+    gap:10px;
+}
+.container3 {
+    display: flex;
+    width: 70%;
+    gap: 15px;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.block{
+    display: flex;
+    width: 25%;
+    border: 2px solid lightgray;
+    flex-direction: column;
+    padding: 10px;
+}
+.block:hover{
+    box-shadow: 5px 5px lightgray;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+a:hover{
+    text-decoration: underline;
+}
+img{
+    width: 30px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="container1">
+    <h1>Try the Copilot-powered platform</h1>
+    <p >We get it, there's a lot you can do with GitHub. That’s why we've packed all of it into a single risk-free trial that includes GitHub Enterprise, Copilot, and Advanced Security.</p>
+    <button>Start free for 30 days</button>
+</div>
+
+
+<div class="container2">
+    <div class="card">
+        <div class="card-top">
+            <h2>Free</h2>
+            <p class="p1">The basics for individuals and organizations</p>
+            <p><strong>0 USD</strong> per month</p>
+            <button>Create a free organization</button>
+        </div>
+        <div class="card-bottom">
+        <details>
+            <summary>Unlimited public/private repositories</summary>
+            <p class="p1">Host open source projects in public GitHub repositories, accessible via web or command line. Public repositories are accessible to anyone at GitHub.com.</p>
+        </details>
+       <details>
+          <summary>Dependabot Security</summary>
+       </details>
+        <details>
+          <summary>2000 CI/CD minutes/month</summary>
+       </details>
+        </div>
+        </div>
+    <div class="card">
+        <div class="card-top">
+            <h2>Team</h2>
+            <p class="p1">Advanced collaboration for individuals</p>
+            <p><strong>4 USD</strong> per month</p>
+            <button>Start with team</button>
+        </div>
+        <div class="card-bottom">
+            <details>
+                <summary>Access to GitHub Codespaces</summary>
+            </details>
+            <details>
+                <summary>Repository rules</summary>
+            </details>
+            <details>
+                <summary>Code owners</summary>
+            </details>
+        </div>
+    </div>
+    <div class="card card-recommended">
+        <div class="card-top">
+            <h2>Enterprise</h2>
+            <p class="p1">Security, compliance, and flexible deployment</p>
+            <p><strong>21 USD</strong> per user month</p>
+            <div class="buttons">
+                <button>Start a free trial</button>
+                <button>Contact sales</button>
+            </div>
+        </div>
+        <div class="card-bottom">
+            <details>
+                <summary>Data residency</summary>
+            </details>
+            <details>
+                <summary>Advanced auditing</summary>
+            </details>
+        </div>
+    </div>
+</div>
+<h1>Additional add-ons</h1>
+<div class="container3">
+    <div class="block">
+        <!--<img src="https://avatars.mds.yandex.net/i?id=301d3cab0320a01f7abf9b85c0a894c4defc5353-10414364-images-thumbs&n=13">-->
+        <strong>GitHub copilot</strong>
+        <p class="p1">Get started for free with up to 2,000 completions and 50 chat requests per month.</p>
+        <a href="#">Compare plans &rsaquo;</a>
+    </div>
+    <div class="block">
+         <strong>GitHub Models</strong>
+        <p class="p1">Bring industry-leading AI into your workflow, securely and with full developer control.</p>
+        <a href="#">Learn more &rsaquo;</a>
+    </div>
+    <div class="block">
+         <strong>GitHub Codespaces</strong>
+        <p class="p1">Starting at $0.18 per hour of compute and $0.07 per GB of storage.</p>
+        <a href="#">Learn more &rsaquo;</a>
+    </div>
+    <div class="block">
+        <strong>GitHub Advanced Security</strong>
+        <p class="p1">Gain peace of mind with our security, privacy, and responsible AI policies.</p>
+        <a href="#">Learn more &rsaquo;</a>
+    </div>
+    <div class="block">
+        <strong>Premium support</strong>
+        <p class="p1">Get expert help for Enterprise Cloud and Enterprise—any hour your team needs it.</p>
+        <a href="#">Learn more &rsaquo;</a>
+    </div>
+    <div class="block">
+        <strong>Git LFS</strong>
+        <p class="p1">$5 per month for 50 GB bandwidth and 50 GB of storage.</p>
+        <a href="#">Learn more &rsaquo;</a>
+    </div>
+</div>
+</body>
+</html>

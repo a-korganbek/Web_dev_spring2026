@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>instagram login</title>
+<link rel="icon" type="image/x-icon" href="i.webp">
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+    background-color: white;
+}
+.right{
+   background-color: whitesmoke;
+   width: 40%;
+   margin-left: auto;
+   min-height: 100vh;
+   flex-direction: column;
+   display: flex;
+}
+.p1{
+    text-align: left;
+    font-weight: 700;
+    margin-top: 180px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.p2{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 12px;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+.p2:hover{
+    text-decoration: underline;
+}
+.lgin{
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 14px;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.lgbt{
+    background-color: blue;
+    border: 2px solid blue;
+    color: white;
+    width: 90%;
+    border-radius: 14px;
+    margin-top: 20px;
+    margin-left: 15px;
+    height: 35px;
+}
+.lgbt:hover{
+    background-color:darkblue;
+}
+.p3{
+    text-align: center;
+    font-weight: 700;
+}
+
+.crtbtn2{
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 14px;
+    color: blue;
+    width: 90%;
+    border-radius: 14px;
+    margin-top: 20px;
+    margin-left: 15px;
+    height: 35px;
+    margin-bottom: 20px;
+}
+.crtbtn2:hover{
+    background-color: #fafafa;
+}
+.crtbtn1{
+    background-color: white;
+    border: 2px solid gainsboro;
+    border-radius: 14px;
+    color: black;
+    width: 90%;
+    border-radius: 14px;
+    margin-left: 15px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.crtbtn1:hover{
+    background-color: #fafafa;
+}
+.img1{
+    width: 80px;
+    display: block;
+    align-items: center;
+    margin-left: 230px;
+}
+.container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    width: 60%;
+}
+.p4{
+    font-size: 28px;
+    width: 300px;
+    text-align: center;
+}
+.s{
+    color: crimson;
+}
+.main-container {
+    display: flex;            
+    justify-content: center;  
+    align-items: center;       
+    gap: 50px;                
+}
+.img2{
+    width: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right:auto ;
+}
+.footer{
+    background-color: #fafafa;
+    color: gray;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+    
+}
+.footer a{
+    color: gray;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.img3{
+    width: 20px;
+    margin-right: 8px;
+}
+</style>
+</head>
+<body>
+<div class="main-container">
+<div class="container">
+    <img src="images/i.webp" class="img2">
+    <p class="p4">Посмотрите, какими моментами из жизни поделились ваши <span class="s">близкие друзья.</span></p>
+    <img src="images/inst.png">
+</div>
+<div class="right">
+    <p class="p1">Войти в инстаграм</p>
+    <input type="text" placeholder="номер телефона или email" class="lgin">
+    <input type="password" placeholder="Пароль" class="lgin">
+    <button class="lgbt">Войти</button>
+    <p class="p2">Забыли пароль?</p>
+    <button class="crtbtn1 p3">
+        <img src="images/image (2).png" class="img3">
+        <p>Войти через facebook</p>
+    </button>
+    <button class="crtbtn2">Создать аккаунт</button>
+    <img src="images/meta.png" class="img1">
+</div>
+</div>
+<div class="footer">
+    <a href="#">English</a>
+    <a href="#">Русский</a>
+    <a href="#">Қазақша</a>
+    <a href="#">Вакансии</a>
+</div>
+</body>
+</html>
