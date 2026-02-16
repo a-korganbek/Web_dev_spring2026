@@ -1,0 +1,52 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+.card:hover { transform: scale(1.05); }
+
+.main-img { max-width: 100%; height: auto; border-radius: 4px; }
+
+.price { font-weight: bold; margin-top: 5px; }
+.rating { color: gold; font-size: 1.2em; }
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+.thumbnails img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+.thumbnails img.active,
+.thumbnails img:hover { border-color: blue; }
+
+.share {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.share a { text-decoration: none; color: #0077ff; }
+.share img{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+a{
+  color: black;
+  text-decoration: none
+}
+a:hover{
+  text-decoration: underline;
+}
